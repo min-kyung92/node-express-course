@@ -30,7 +30,7 @@ app.get('/users/:id',function(req,res){
 
 app.post('/login',function(req,res){
     const username = req.body.username;
-    const passworld = req.body.password;
+    const password = req.body.password;
 
     const mockUsername = "billyTheKid";
     const mockPassword = "superSecret";
