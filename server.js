@@ -35,7 +35,7 @@ app.post('/login',function(req,res){
     const mockUsername = "billyTheKid";
     const mockPassword = "superSecret";
 
-    if(username===mockUsername && password===mockPassword){
+    if(username === mockUsername && password === mockPassword){
         res.json({
             success:true,
             message:'password and username match!',
